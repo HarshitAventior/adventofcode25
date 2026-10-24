@@ -1,0 +1,27 @@
+#+title: Readme
+
+Learning OCaml by solving [[https://adventofcode.com/2025/day/1][adventofcode]]
+
+* OCaml tooling
+
+1. =ocamlc= - bytecode compiler
+2. =ocamlopt= - native code compilers
+3. =ocamlfind= - frontend to the compiler ?
+4. =dune= - build system so we don't have to use =ocaml{find,c,opt}= manually ourself.
+5. =opam= - package manager
+6. =utop= - REPL
+7. =ocamlformat= - formatter
+8. =ocaml-lsp-server= - duh
+
+https://ocaml.org/docs/using-the-ocaml-compiler-toolchain
+
+* Nix
+
+thanks to [[https://vimjoyer.com/nixmap/#config-argument][nixmap]] & some helpful nudging from the internet I feel more comfortable with =nix= now,
+so I will be using =nix= to setup all the ocaml tooling
+
+#+INCLUDE: "./shell.nix" src nix
+
+we can use =nix-shell= command to activate a shell environment with all the tools magically installed for our system.
+
+Apparently =ocamlPackages.base= and =ocamlPackages.stdio= are jane street libs that are meant to be a replacement for builtin libs with some changes in the function signatures, not diving into this right now.
