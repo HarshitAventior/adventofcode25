@@ -25,3 +25,7 @@ so I will be using =nix= to setup all the ocaml tooling
 we can use =nix-shell= command to activate a shell environment with all the tools magically installed for our system.
 
 Apparently =ocamlPackages.base= and =ocamlPackages.stdio= are jane street libs that are meant to be a replacement for builtin libs with some changes in the function signatures, not diving into this right now.
+
+#+BEGIN_QUOTE
+If you are [a hiring manager] from jane street, Yes, I would love to get hired, lol.
+#+END_QUOTE
