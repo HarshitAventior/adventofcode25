@@ -15,6 +15,7 @@ pkgs.mkShell {
     ocamlPackages.ocaml-lsp
 
     # Libraries
+    ocamlPackages.base
     ocamlPackages.fmt
 
   ];

@@ -1,8 +1,8 @@
 (executables
- (names day1 day2)
- (libraries utils fmt str))
+ (names day1 day2 day3)
+ (libraries base utils fmt str))
 
 (env
  (dev
   (flags
-   (:standard -w -32))))
+   (:standard -w -32-33))))
