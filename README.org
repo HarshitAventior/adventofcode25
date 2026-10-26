@@ -29,3 +29,12 @@ Apparently =ocamlPackages.base= and =ocamlPackages.stdio= are jane street libs t
 #+BEGIN_QUOTE
 If you are [a hiring manager] from jane street, Yes, I would love to get hired, lol.
 #+END_QUOTE
+
+* Running the solutions
+
+#+begin_src shell
+nix-shell
+dune build
+dune exec days/day2.exe ./inputs/day2.demo  # Example input
+dune exec days/day2.exe ./inputs/day2.input # Actual input
+#+end_src

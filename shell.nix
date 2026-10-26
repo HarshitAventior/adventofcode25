@@ -13,6 +13,10 @@ pkgs.mkShell {
     ocamlPackages.utop
     ocamlPackages.ocamlformat
     ocamlPackages.ocaml-lsp
+
+    # Libraries
+    ocamlPackages.fmt
+
   ];
   shellHook = ''
     echo "Welcome to Advent of Code !"
