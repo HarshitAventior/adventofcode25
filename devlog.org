@@ -1,0 +1,52 @@
+
+Ocaml has less stuff available out of the box...
+
+like chunking
+
+great regex..
+
+* OCaml learning journey
+
+** cool functions
+
+** cool cool cool
+
+** Ah so many ideas (borrowed into rust)
+
+** I should have used jane street base.
+
+** |> is cool, (& reverse application from Haskell)
+
+** Ah haskell has more convenient functions
+
+** Oh we can actually have state very easily and do loops !
+
+** Printf.printf is typed ! awesome !
+
+** WTH no chunking function
+
+** WTH no backreference in regex
+
+** WTH we can't curry on operators ...or can we?
+
+* FP
+
+Give me a crash course in all of the functional programming concepts and context i need to know as an FP expert (use haskell, ocaml and rust examples)
+
+Give me a tour of the OCaml std library
+
+* Day 4
+
+https://adventofcode.com/2025/day/4
+
+I think having a =int list list= will get quite memory inefficient.. even with arrays..
+I will instead keep a set of all coors where a roll (of paper) is and then get check for its existence !
+
+then we can check the dimensions accordingly !
+
+we don't even need to store the coors... just the raw number will do..
+
+
+OCaml is often ackward to work with...
+I just want map_filteri ... but it doesn't exist.
+so I have to write more code for it.
